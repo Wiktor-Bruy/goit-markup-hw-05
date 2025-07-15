@@ -461,7 +461,12 @@
           <p class="text">Subscribe</p>
           <form class="form-sub">
             <label class="sub-label">
-              <input class="email-foot" type="email" placeholder="E-mail" />
+              <input
+                class="email-foot"
+                type="email"
+                placeholder="E-mail"
+                name="email"
+              />
               <button class="foot-but" type="submit">
                 Subscribe
                 <img
@@ -476,5 +481,37 @@
         </div>
       </div>
     </footer>
+
+    <div class="modal-overlay">
+      <div class="modal">
+        <button type="button" class="but-ex">&#x2715</button>
+        <form>
+          <fieldset class="form-mod">
+            <legend>Leave your contacts and we will call you back</legend>
+            <label class="form-label">
+              Name
+              <input type="text" name="username" />
+            </label>
+            <label class="form-label">
+              Phone
+              <input type="tel" name="tel" />
+            </label>
+            <label class="form-label">
+              Email
+              <input type="email" name="email" />
+            </label>
+            <label class="form-label">
+              Comment
+              <textarea name="comment" placeholder="Text input"></textarea>
+            </label>
+            <label>
+              <input type="checkbox" name="chack" value="1" />
+              I accept the terms and conditions of the <a>Privacy Policy</a>
+            </label>
+            <button type="submit" class="modal-but">Send</button>
+          </fieldset>
+        </form>
+      </div>
+    </div>
   </body>
 </html>
