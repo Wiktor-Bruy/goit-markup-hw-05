@@ -34,6 +34,61 @@ img {
   margin-right: auto;
 }
 
+/*Homework-5*/
+
+/*Footer*/
+.subscribe {
+  margin-left: 80px;
+}
+.subscribe .text {
+  margin-bottom: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+.email-foot {
+  padding: 8px 16px;
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  width: 264px;
+  height: 40px;
+  box-shadow: none;
+  color: #ffffff;
+}
+.email-foot::placeholder {
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+}
+.foot-but {
+  min-width: 165px;
+  min-height: 40px;
+  background-color: #4d5ae5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  border-radius: 4px;
+  padding: 8px 24px;
+  color: #ffffff;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.foot-but:hover,
+.foot-but:focus {
+  background-color: #404bbf;
+}
+.sub-label {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+
 /*Homework-4*/
 
 /*Top-line*/
