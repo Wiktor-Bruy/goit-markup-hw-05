@@ -157,12 +157,17 @@ input {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.but-clos:hover,
+.but-clos:hover {
+  background-color: #404bbf;
+  border: none;
+}
 .but-clos:focus {
   background-color: #404bbf;
   border: none;
 }
-.but-clos:hover .icon-clos,
+.but-clos:hover .icon-clos {
+  fill: #ffffff;
+}
 .but-clos:focus .icon-clos {
   fill: #ffffff;
 }
@@ -288,7 +293,7 @@ input {
   justify-content: center;
   fill: transparent;
 }
-input:checked + .pp-label .box {
+input:checked + .box {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
