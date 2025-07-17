@@ -288,7 +288,7 @@ input {
   justify-content: center;
   fill: transparent;
 }
-.visually-hidden:checked + .user-privacy .box {
+.visually-hidden:checked + .pp-label .box {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
