@@ -65,7 +65,7 @@ input {
   color: #ffffff;
   font-size: 12px;
   line-height: 2;
-  letter-spacing: 0.04;
+  letter-spacing: 0.04em;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 .email-foot::placeholder {
@@ -194,6 +194,8 @@ input {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
+  color: #8e8f99;
+  display: block;
 }
 .icon-form {
   position: absolute;
@@ -225,7 +227,7 @@ input {
   height: 120px;
   font-size: 12px;
   line-height: 1.17;
-  letter-spacing: 0.04;
+  letter-spacing: 0.04em;
   color: rgba(46, 47, 66, 0.4);
   padding: 8px 16px;
   resize: none;
@@ -255,7 +257,7 @@ input {
 .box-chek {
   margin-bottom: 24px;
 }
-.check {
+.visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -286,7 +288,7 @@ input {
   justify-content: center;
   fill: transparent;
 }
-.check:checked + .pp-label .box {
+input:checked + .pp-label .box {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
@@ -309,7 +311,7 @@ input {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.04;
+  letter-spacing: 0.04em;
   cursor: pointer;
   border: none;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
