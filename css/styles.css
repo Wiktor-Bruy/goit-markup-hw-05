@@ -43,12 +43,16 @@ input {
 .subscribe {
   margin-left: 80px;
 }
-.subscribe .text {
+.down-line .subscribe .text {
   margin-bottom: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #ffffff;
+}
+.form-sub {
+  display: flex;
+  gap: 24px;
 }
 .email-foot {
   padding: 8px 16px;
@@ -59,6 +63,10 @@ input {
   height: 40px;
   box-shadow: none;
   color: #ffffff;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 .email-foot::placeholder {
   font-size: 12px;
@@ -67,18 +75,21 @@ input {
   color: #ffffff;
 }
 .foot-but {
-  width: 165px;
+  min-width: 165px;
   height: 40px;
   background-color: #4d5ae5;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 16px;
   border-radius: 4px;
   color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  cursor: pointer;
+  border: none;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .foot-but:hover,
@@ -91,6 +102,7 @@ input {
   align-items: center;
 }
 .foot-icon {
+  margin-left: 16px;
   fill: #ffffff;
 }
 
